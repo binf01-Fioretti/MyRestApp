@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="92dp"
+        android:layout_height="82dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/Netflix"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="420dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
