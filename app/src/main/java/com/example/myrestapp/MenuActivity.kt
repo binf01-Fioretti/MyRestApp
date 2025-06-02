@@ -1,6 +1,10 @@
 package com.example.myrestapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,14 +21,5 @@ class MenuActivity : AppCompatActivity() {
             insets
         }
     }
-     override fun onClick(){
-        var btnClick = findViewById<Button>(R.id.buttonClick)
-         btnClick.setOnClickListener(View.OnClickListener {
-             messaggioToast("LOGIN EFFETTUATO!")
-     }
-}
-    private fun creaIntent(){
-        var Intent= Intent(this,WebWiewActivity::class.java)
-        startActivity(Intent)
-    }
+
 }
